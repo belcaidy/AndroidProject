@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="hello">Hello World!</string>
+    <string name="enregistrer">ENREGISTRER</string>
+    <string name="nom">Nom : </string>
+    <string name="prenom">"Prenom : "</string>
+    <string name="classe">"Classe : "</string>
+    <string name="req">"Remarque : "</string>
+</resources>
