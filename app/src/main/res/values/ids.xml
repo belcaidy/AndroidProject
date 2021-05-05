@@ -10,4 +10,28 @@
     <item name="txtClasse" type="id" />
     <item name="lblReq" type="id" />
     <item name="txtReq" type="id" />
+    <item name="listNotes"
+        type="id" />
+    <item name="imgIcon"
+        type="id" />
+    <item name="txtMat"
+        type="id" />
+    <item name="txtScore"
+        type="id" />
+    <item name="btnCall"
+        type="id" />
+    <item name="btnAddNote"
+        type="id" />
+    <item name="txtNewMat"
+        type="id" />
+    <item name="txtNewScr"
+        type="id" />
+    <item name="txtLogin"
+        type="id" />
+    <item name="txtPasswd"
+        type="id" />
+    <item name="btnLogin"
+        type="id" />
+    <item name="autoLogin"
+        type="id" />
 </resources>

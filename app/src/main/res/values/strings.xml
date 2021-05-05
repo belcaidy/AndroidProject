@@ -6,4 +6,9 @@
     <string name="prenom">"Prenom : "</string>
     <string name="classe">"Classe : "</string>
     <string name="req">"Remarque : "</string>
+    <string name="login">Login</string>
+    <string name="passwd">Password</string>
+    <string name="entrer">Entrer</string>
+    <string name="memoriser_les_informations">Memoriser mes informations</string>
+
 </resources>

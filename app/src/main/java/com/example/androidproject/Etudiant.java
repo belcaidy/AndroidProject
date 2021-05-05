@@ -2,10 +2,15 @@ package com.example.androidproject;
 
 import android.graphics.Bitmap;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Etudiant {
     private int id;
     private String nom,prenom,classe,phone;
     private Bitmap photo;
+    private List<Note> notes;
+
 
     public Etudiant(int id, String nom, String prenom, String classe, String phone, Bitmap photo) {
         this.id = id;
@@ -62,5 +67,18 @@ public class Etudiant {
 
     public void setPhoto(Bitmap photo) {
         this.photo = photo;
+    }
+
+    public List<Note> getNotes() {
+        return notes;
+    }
+
+    public void setNotes(List<Note> notes) {
+        this.notes = notes;
+    }
+    public void addNote(Note n){
+        if(notes==null)
+            notes=new ArrayList<Note>();
+        notes.add(n);
     }
 }
